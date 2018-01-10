@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://i.imgur.com/V0TDyGS.jpg"), url("https://i.imgur.com/8Hbjr9a.jpg"), url("https://i.imgur.com/Wju8I2I.jpg");
+  background-image: url("https://i.imgur.com/V0TDyGS.jpg"), url("https://i.imgur.com/8Hbjr9a.jpg"), url("https://i.imgur.com/jNTN2MM.jpg");
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
   background-position: 71% 10%, 71% 46.5%, 71% 93%;
   background-size: 50%, 50%;
@@ -116,7 +116,7 @@ input[type=text]:focus {
   position: relative;
   line-height: 0.9em;
   right: 28.7%;
-  transform: translateY(100%);
+  transform: translateY(258%);
 }
 
 .AD2 {
