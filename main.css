@@ -1,7 +1,7 @@
 body {
   background-image: url("https://i.imgur.com/V0TDyGS.jpg"), url("https://i.imgur.com/8Hbjr9a.jpg"), url("https://i.imgur.com/Wju8I2I.jpg");
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-  background-position: 480px 200px, 480px 940px, 480px 1650px;
+  background-position: 71% 10%, 71% 46.5%, 71% 93%;
   background-size: 50%, 50%;
   margin-bottom: 10px;
   padding-bottom: 10px;
@@ -97,7 +97,7 @@ input[type=text]:focus {
   word-spacing: 1.8em;
   position:  fixed;
   float: right;
-  left: 880px;
+  left: 870px;
   top: 65px;
 }
 
@@ -108,21 +108,21 @@ input[type=text]:focus {
 .AD1 {
   float: right;
   color: white;
-  font-size: 14px;
+  font-size: 0.875em;
   font-weight: bold;
   font-family: Helvetica;
   text-transform: uppercase;
   text-align: center;
   position: relative;
   line-height: 0.9em;
-  right: 355px;
-  top: 280px;
+  right: 28.7%;
+  transform: translateY(100%);
 }
 
 .AD2 {
   float: right;
   color:  #262323;
-  font-size: 14px;
+  font-size: 0.875em;
   font-weight: bold;
   font-family: Helvetica;
   text-align: center;
@@ -136,7 +136,7 @@ input[type=text]:focus {
 .AD3 {
   float: right;
   color: red;
-  font-size: 18px;
+  font-size: 1.125em;
   font-weight: bold;
   font-family: Helvetica;
   text-transform: uppercase;
@@ -160,10 +160,17 @@ input[type=text]:focus {
   line-height: 25px;
   letter-spacing: 0.03em;
   margin-bottom: 1100px;
+  border-left: 1px black solid;
+  margin-left: 19px;
 }
 
 .Brands li {
   font-size: 14px;
+}
+.Brands ul {
+  position: relative;
+  padding-left: 12px;
+  width: 300px;
 }
 
 footer {
