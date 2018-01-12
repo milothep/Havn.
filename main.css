@@ -1,10 +1,8 @@
 body {
-  background-image: url("https://i.imgur.com/V0TDyGS.jpg"), url("https://i.imgur.com/8Hbjr9a.jpg"), url("https://i.imgur.com/jNTN2MM.jpg");
+  background-image: url("https://i.imgur.com/V0TDyGS.jpg"), url("https://i.imgur.com/8Hbjr9a.jpg"), url("https://i.imgur.com/GX83bvF.jpg"), url("https://i.imgur.com/rjNBBYj.jpg");
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-  background-position: 71% 10%, 71% 46.5%, 71% 93%;
-  background-size: 50%, 50%;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
+  background-position: 71% 13%, 71% 60%, 46.3% 93.8%, 81.1% 93.8%;
+  background-size: 50%, 50%, 23.3%, 23.3%;
 }
 
 ul {
@@ -122,30 +120,51 @@ input[type=text]:focus {
 .AD2 {
   float: right;
   color:  #262323;
-  font-size: 0.875em;
+  font-size: 0.9em;
   font-weight: bold;
   font-family: Helvetica;
+  word-spacing: -0.03em;
   text-align: center;
-  text-transform: uppercase;
   position: relative;
-  line-height: 0.7em;
-  right: 5.4%;
-  transform: translateY(845%);
+  line-height: 0.6em;
+  right: 7.7%;
+  transform: translateY(850%);
 }
 
 .AD3 {
   float: right;
-  color: red;
-  font-size: 1.125em;
+  color: white;
+  font-size: 0.65em;
   font-weight: bold;
   font-family: Helvetica;
   text-transform: uppercase;
   text-align: center;
   position: relative;
+  line-height: 0.8em;
+  right: 2.8%;
+  transform: translateY(2150%);
+}
+
+.AD3 h1 {
+  font-size: 1.8em;
+}
+
+.AD3 #Soph {
+  font-size: 1.3em;
+}
+
+.AD4 {
+  float: right;
+  color: red;
+  font-size: 0.65em;
+  font-weight: bold;
+  font-family: Helvetica;
+  text-align: center;
+  position: relative;
   line-height: 0.7em;
   letter-spacing: -0.05em;
-  left: 14.4%;
-  transform: translateY(1330%);
+  left: 43.4%;
+  transform: translateY(2930%);
 }
 
 #ListHeader {
@@ -159,7 +178,7 @@ input[type=text]:focus {
   font-weight: 500;
   line-height: 25px;
   letter-spacing: 0.03em;
-  margin-bottom: 1100px;
+  margin-bottom: 700px;
   border-left: 1px black solid;
   margin-left: 19px;
 }
